@@ -25,17 +25,17 @@ public class Abhi {
     }
 
     //    Sorted or not
-    private static boolean isSorted(int[] ar, int idx1, int idx2) {
-        if(idx1 >= ar.length || idx2 >= ar.length) {
-            return true;
-        }
-
-        if(ar[idx1] >= ar[idx2]) {
-            return false;
-        }
-
-        return isSorted(ar, idx1 + 1, idx2 + 1);
-    }
+//    private static boolean isSorted(int[] ar, int idx1, int idx2) {
+//        if(idx1 >= ar.length || idx2 >= ar.length) {
+//            return true;
+//        }
+//
+//        if(ar[idx1] >= ar[idx2]) {
+//            return false;
+//        }
+//
+//        return isSorted(ar, idx1 + 1, idx2 + 1);
+//    }
 
     //    linear search (return last idx of the target)
     private static int findLastIndex(int[] ar, int target, int idx) {
