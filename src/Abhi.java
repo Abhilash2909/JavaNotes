@@ -1,7 +1,4 @@
 import java.util.*;
-import java.io.*;
-import java.util.Scanner;
-
 public class Abhi {
 
 //    Recursion--->
@@ -11,10 +8,19 @@ public class Abhi {
 //    - Base condition
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4};
-        printRecursively(arr, 0);
+        int[] arr = {1000, -2, 3, 400};
+        System.out.println(maxValue(arr, 0, -1));
     }
-//    Print all the values in an array recursively.
+
+    //    Print the max value of array
+    private static int maxValue(int[] arr, int idx, int max) {
+        if(idx == arr.length) {
+            return max;
+        }
+        return maxValue(arr, idx+1, Math.max(max, arr[idx]));
+    }
+
+    //    Print all the values in an array recursively.
     private static void printRecursively(int[] arr, int idx) {
         if(idx == arr.length-1) {
             System.out.print(arr[idx] + " ");
