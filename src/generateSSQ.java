@@ -1,7 +1,9 @@
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class recursionMedium {
+public class generateSSQ {
+
+//    below approach is recursive and uses 2^n storage space and time complexity is O(2^n)
+//    so to avoid that we directly print the subsequences of the string in the next method
     public static ArrayList<String> getSubSequences(String s) {
         ArrayList<String> ans = new ArrayList<>();
         if(s.isEmpty()) {
