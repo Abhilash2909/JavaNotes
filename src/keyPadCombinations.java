@@ -1,4 +1,4 @@
-public class keyPadCominations {
+public class keyPadCombinations {
     static void combinations(String s, String[] km, String res) {
         if(s.isEmpty()) {
             System.out.print(res + " ");
