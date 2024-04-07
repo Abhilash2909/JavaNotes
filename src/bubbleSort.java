@@ -1,5 +1,5 @@
 public class bubbleSort {
-    public static void bubbleSort(int n, int ar) {
+    public static void bubbleSort(int n, int[] ar) {
 
     }
     public static void main(String[] args) {
