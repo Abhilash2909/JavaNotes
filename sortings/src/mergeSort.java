@@ -38,17 +38,17 @@ public class mergeSort {
             k++;
         }
     }
-    public static void mergeSort(int[] ar, int l, int r) {
+    public static void ms(int[] ar, int l, int r) {
         if(l < r) {
             int m = (l + r) / 2;
-            mergeSort(ar, l, m);
-            mergeSort(ar, m+1, r);
+            ms(ar, l, m);
+            ms(ar, m+1, r);
             merge(ar, l, m, r);
         }
     }
     public static void main(String[] args) {
         int[] ar = {3, 1, 4, 2, 5};
-        mergeSort(ar, 0, ar.length-1);
+        ms(ar, 0, ar.length-1);
         for(int i : ar) {
             System.out.print(i + " ");
         }
