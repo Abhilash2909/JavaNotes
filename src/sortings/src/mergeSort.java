@@ -1,60 +1,60 @@
-public class mergeSort {
-    public static void merge(int[] ar, int l, int m, int r) {
-        int n1 = m - l + 1;
-        int n2 = r - m;
-
-        int[]a = new int[n1];
-        int[]b = new int[n2];
-
-        for(int i=0; i<n1; ++i) {
-            a[i] = ar[l+i];
-        }
-        for(int j=0; j<n2; ++j) {
-            b[j] = ar[m + 1 + j];
-        }
-
-        int k = l;
-        int i = 0, j = 0;
-
-        while(i < n1 && j < n2) {
-            if(a[i] <= b[j]) {
-                ar[k] = a[i];
-                i++;
-            } else {
-                ar[k] = b[j];
-                j++;
-            }
-            k++;
-        }
-
-        while(i < n1) {
-            ar[k] = a[i];
-            i++;
-            k++;
-        }
-        while(j < n2) {
-            ar[k] = b[j];
-            j++;
-            k++;
-        }
-    }
-    public static void ms(int[] ar, int l, int r) {
-        if(l < r) {
-            int m = (l + r) / 2;
-            ms(ar, l, m);
-            ms(ar, m+1, r);
-            merge(ar, l, m, r);
-        }
-    }
-    public static void main(String[] args) {
-        int[] ar = {3, 1, 4, 2, 5};
-        ms(ar, 0, ar.length-1);
-        for(int i : ar) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
-    }
-}
+//public class mergeSort {
+//    public static void merge(int[] ar, int l, int m, int r) {
+//        int n1 = m - l + 1;
+//        int n2 = r - m;
+//
+//        int[]a = new int[n1];
+//        int[]b = new int[n2];
+//
+//        for(int i=0; i<n1; ++i) {
+//            a[i] = ar[l+i];
+//        }
+//        for(int j=0; j<n2; ++j) {
+//            b[j] = ar[m + 1 + j];
+//        }
+//
+//        int k = l;
+//        int i = 0, j = 0;
+//
+//        while(i < n1 && j < n2) {
+//            if(a[i] <= b[j]) {
+//                ar[k] = a[i];
+//                i++;
+//            } else {
+//                ar[k] = b[j];
+//                j++;
+//            }
+//            k++;
+//        }
+//
+//        while(i < n1) {
+//            ar[k] = a[i];
+//            i++;
+//            k++;
+//        }
+//        while(j < n2) {
+//            ar[k] = b[j];
+//            j++;
+//            k++;
+//        }
+//    }
+//    public static void ms(int[] ar, int l, int r) {
+//        if(l < r) {
+//            int m = (l + r) / 2;
+//            ms(ar, l, m);
+//            ms(ar, m+1, r);
+//            merge(ar, l, m, r);
+//        }
+//    }
+//    public static void main(String[] args) {
+//        int[] ar = {3, 1, 4, 2, 5};
+//        ms(ar, 0, ar.length-1);
+//        for(int i : ar) {
+//            System.out.print(i + " ");
+//        }
+//        System.out.println();
+//    }
+//}
 
 //    public static void main(String[] args) {
 //        int[] arr = {5, 2, 8, 3, 1, 9, 4, 7, 6};
