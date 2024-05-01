@@ -1,7 +1,7 @@
 public class PrintSubSetSum {
     private static void printSubSetSum(int[] arr, int idx, int currSum) {
         if(idx == arr.length) {
-            System.out.println(currSum);
+            System.out.print(currSum + " ");
             return;
         }
         printSubSetSum(arr, idx+1, currSum + arr[idx]);

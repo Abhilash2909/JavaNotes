@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/Basics/Basics.iml" filepath="$PROJECT_DIR$/src/Basics/Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/src/Exceptions/Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaNotes.iml" filepath="$PROJECT_DIR$/JavaNotes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/sortings/sortings.iml" filepath="$PROJECT_DIR$/src/sortings/sortings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/src/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Sortings/Sortings.iml" filepath="$PROJECT_DIR$/src/Sortings/Sortings.iml" />
     </modules>
   </component>
 </project>
