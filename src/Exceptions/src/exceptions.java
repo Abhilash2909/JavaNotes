@@ -78,7 +78,7 @@ public class exceptions {
 
 
 //      4. User Defined Exception
-        int i = 5;
+        int i = 15;
         try {
             if(i < 10) {
                 throw new MyException("Error");
@@ -88,11 +88,10 @@ public class exceptions {
             System.out.println(e);
         }
     }
-}
-
-class MyException extends Exception
-{
-    public MyException(String msg) {
-        super(msg);
+    static class MyException extends Exception
+    {
+        public MyException(String msg) {
+            super(msg);
+        }
     }
 }
