@@ -78,7 +78,7 @@ public class exceptions {
 
 
 //      4. User Defined Exception
-        int i = 15;
+        int i = 5;
         try {
             if(i < 10) {
                 throw new MyException("Error");
