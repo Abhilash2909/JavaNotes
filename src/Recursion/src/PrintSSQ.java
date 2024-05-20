@@ -1,6 +1,6 @@
 public class PrintSSQ {
 //    number of max. stack frames at any instances * max. space occupied in 1 stack
-//    S.C: O(n*n), T.C: O(
+//    S.C: O(n*n), T.C: O(2*n)
     public static void printSSQ(String s, String currAns) {
         if(s.isEmpty()) {
             System.out.println(currAns);
