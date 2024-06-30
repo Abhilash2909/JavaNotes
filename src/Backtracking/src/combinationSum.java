@@ -1,4 +1,4 @@
-package Backtracking;
+package Backtracking.src;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -37,7 +37,6 @@ public class combinationSum {
                     list.add(Integer.parseInt(str[i]));
                 str = br.readLine().trim().split(" ");
                 int sum = Integer.parseInt(str[0]);
-                Solution ob = new Solution();
                 ArrayList<ArrayList<Integer>> res = combinationSum(list, sum);
                 if (res.isEmpty()) {
                     out.print("Empty");
