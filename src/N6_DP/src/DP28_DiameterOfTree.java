@@ -1,4 +1,4 @@
-// Diameter of a Binary Tree
+package N6_DP.src;// Diameter of a Binary Tree
 // Maximum Path Sum | From any node to any node
 // Maximum Path sum | From leaf node to leaf node
 
