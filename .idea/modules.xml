@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/src/Basics/Basics.iml" filepath="$PROJECT_DIR$/src/Basics/Basics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Recursion/Easy/Easy.iml" filepath="$PROJECT_DIR$/src/Recursion/Easy/Easy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/src/Exceptions/Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaNotes.iml" filepath="$PROJECT_DIR$/JavaNotes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/src/Recursion/Recursion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Sortings/Sortings.iml" filepath="$PROJECT_DIR$/src/Sortings/Sortings.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/Recursion/medium/medium.iml" filepath="$PROJECT_DIR$/src/Recursion/medium/medium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/N4_Recursion/N4_Recursion.iml" filepath="$PROJECT_DIR$/src/N4_Recursion/N4_Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Recursion/N4_Recursionn/N4_Recursionn.iml" filepath="$PROJECT_DIR$/src/Recursion/N4_Recursionn/N4_Recursionn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/N6_DP/N6_DP.iml" filepath="$PROJECT_DIR$/src/N6_DP/N6_DP.iml" />
     </modules>
   </component>
 </project>
