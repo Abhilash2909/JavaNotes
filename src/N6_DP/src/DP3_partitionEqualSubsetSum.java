@@ -1,3 +1,5 @@
+package N6_DP.src;
+
 import java.io.*;
 
 public class DP3_partitionEqualSubsetSum {
